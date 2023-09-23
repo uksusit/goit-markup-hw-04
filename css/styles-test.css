@@ -65,3 +65,7 @@ p {
 .icon:hover {
     fill: var(--blue-color);
 }
+.twitter {
+    width: 130px;
+    height: 130px;
+}
