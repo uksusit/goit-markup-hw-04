@@ -223,17 +223,12 @@ footer .logo span {
 .features p {
     line-height: 1.71429;
     letter-spacing: 0.42px;
-    /* color: var(--gray-color); */
     margin-top: 0;
-    /* margin-bottom: 94px; */
 }
 .features li {
         min-width: 270px;
 }
-/* .features ul {
-    display: flex;
-    justify-content: space-between;
-} */
+/* features icons */
 .features li::before {
     display: block;
     content: "";
@@ -247,7 +242,16 @@ footer .logo span {
     margin-bottom: 30px;
 }
 .antenna::before {    
-    background-image: url("../opt/antenna.svg");   
+    background-image: url("../images/antenna.svg");   
+}
+.clock::before {
+    background-image: url("../images/clock.svg");
+}
+.diagram::before {
+    background-image: url("../images/diagram.svg");
+}
+.astronaut::before {
+    background-image: url("../images/astronaut.svg");
 }
 
 /* common for section */
