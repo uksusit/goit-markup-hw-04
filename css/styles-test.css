@@ -59,11 +59,12 @@ p {
     margin-right: 50px;
     margin-top: 20px;
     outline: auto;
-        /* stroke: yellow; */
-    fill: var(--gray-color);
+    /* in main color */
+    fill: #AFB1B8;
 }
 .icon:hover {
-    fill: var(--blue-color);
+    fill: #2196F3;
+    /* stroke: yellow; */
 }
 .twitter {
     width: 70px;
