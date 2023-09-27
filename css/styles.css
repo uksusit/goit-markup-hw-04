@@ -8,6 +8,9 @@
     --footer-bg-color: #2F303A;
     --footer-text: rgba(255, 255, 255, 0.60);
     --btn-shadow: rgba(0, 0, 0, 0.15);
+    --social-color: #AFB1B8;
+
+
 }
 /* default preset */
 body {
@@ -223,17 +226,12 @@ footer .logo span {
 .features p {
     line-height: 1.71429;
     letter-spacing: 0.42px;
-    /* color: var(--gray-color); */
     margin-top: 0;
-    /* margin-bottom: 94px; */
 }
 .features li {
         min-width: 270px;
 }
-/* .features ul {
-    display: flex;
-    justify-content: space-between;
-} */
+/* features icons */
 .features li::before {
     display: block;
     content: "";
@@ -247,15 +245,22 @@ footer .logo span {
     margin-bottom: 30px;
 }
 .antenna::before {    
-    background-image: url("../opt/antenna.svg");   
+    background-image: url("../images/antenna.svg");   
+}
+.clock::before {
+    background-image: url("../images/clock.svg");
+}
+.diagram::before {
+    background-image: url("../images/diagram.svg");
+}
+.astronaut::before {
+    background-image: url("../images/astronaut.svg");
 }
 
 /* common for section */
 .section ul {
 display: flex;
 /* outline: 1px solid red; */
-/* justify-content: space-between; */
-/* margin-bottom: 94px; */
 }
 .w-margin li + li {
 margin-left: 30px;
@@ -271,15 +276,9 @@ margin-left: 30px;
 .section img {display: block;}
 /* team */
 .team {
-    /* width: 1600px;
-    height: 648px; */
-    /* flex-shrink: 0; */
     background: var(--btn-bg-color);
-    /* padding-top: 94px; */
 }
 .team li {
-    /* display: inline-block; */
-    /* padding-bottom: 30px; */
         text-align: center;
         border-radius: 0px 0px 4px 4px;
         background: #FFF;
@@ -312,8 +311,32 @@ margin-left: 30px;
         /* font-style: normal;
         line-height: normal; */
 }
-
-
+/* icons */
+.social-btn {
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    box-sizing: 0;
+    /* box-shadow: none; */
+    border: none;
+    border-radius: 50%;
+    background-color: #FFF;
+    /* border-color: var(--white-color); */
+    fill: var(--social-color);
+        /* flex-shrink: 0; */
+}
+.social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    flex-shrink: 0;
+}
+.social-btn:hover {
+    fill: var(--white-color);
+    background-color: #2196F3;
+}
 /* menu filter portfolio */
 .menu-filter {
     display: flex;
