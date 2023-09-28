@@ -9,8 +9,6 @@
     --footer-text: rgba(255, 255, 255, 0.60);
     --btn-shadow: rgba(0, 0, 0, 0.15);
     --social-color: #AFB1B8;
-
-
 }
 /* default preset */
 body {
@@ -72,21 +70,15 @@ header li {
     letter-spacing: 0.28px;
     /* outline: 1px solid red; */
 }
-
-/* .site-nav li + li {
-    margin-left: 50px;
- } */
 .site-nav a {
     display: block;
     padding: 32px 0;
 }
-
 .site-nav a:hover,
 .site-nav a:focus,
 .site-nav a::selection {
     color: var(--blue-color);
 }
-
 .site-nav .current {
     color: var(--blue-color);
 }
@@ -97,28 +89,24 @@ header li {
     font-weight: 500;
     letter-spacing: 0.28px;
     color: var(--gray-color);
-    /* font-family: Roboto;
-    line-height: normal;
-    font-size: 14px;
-    font-style: normal;
-    */
 }
 .header-contacts:hover,
 .header-contacts:focus {
-    color: var(--blue-color);  
+    color: var(--blue-color);
+    fill: var(--blue-color);
 }
-.icon.smartphone{
+.icon.smartphone {
     width: 10px;
     height: 16px;
     margin-right: 10px;
     flex-shrink: 0;
-  }
-  .icon.envelope {
+}
+.icon.envelope {
     width: 16px;
     height: 12px;
     margin-right: 10px;
     flex-shrink: 0;
-  }
+}
 header li:hover, header li:focus {
     fill: var(--blue-color);
     color: var(--blue-color);
@@ -136,9 +124,6 @@ header li:hover, header li:focus {
     font-weight: 700;
     letter-spacing: 0.78px;
     color: var(--blue-color);
-    /* text-decoration: none;
-    font-style: normal;
-    line-height: normal; */
 }
 .logo span {
     color: var(--black-color);
@@ -187,8 +172,7 @@ footer .logo span {
         to right,
         rgba(47, 48, 58, 0.40),
         rgba(47, 48, 58, 0.40)),
-          url( ../images/Img-hero.jpg);     
-     
+          url( ../images/Img-hero.jpg);          
 }
 .title-hero {
     width: 696px;
@@ -199,8 +183,6 @@ footer .logo span {
         letter-spacing: 2.64px;
         text-transform: uppercase;
     color: var(--white-color);
-        /* font-family: Roboto; */
-        /* font-style: normal; */
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 30px;
@@ -294,11 +276,6 @@ margin-left: 30px;
         font-weight: 400;
         letter-spacing: 0.48px;
     color: var(--gray-color);     
-    /* padding-top: 10px; */
-        /* 
-        font-family: Roboto; */
-        /* font-style: normal;
-        line-height: normal;*/
 }
 .team h3 {
         font-size: 16px;
@@ -306,10 +283,6 @@ margin-left: 30px;
         letter-spacing: 0.48px;
         color: var(--main-text-color);
         margin-bottom: 10px;
-        /* padding-top: 30px;
-        padding-bottom: 10px; */
-        /* font-style: normal;
-        line-height: normal; */
 }
 /* icons */
 .social .social-btn {
@@ -331,8 +304,6 @@ margin-left: 30px;
     width: 20px;
     height: 20px;
     align-items: baseline;
-    /* margin: 0; */
-    /* flex-shrink: 0; */
 }
 .social .social-btn:hover {
     fill: var(--white-color);
@@ -350,12 +321,10 @@ margin-left: 30px;
     justify-content: center;
     margin-bottom: 50px;
 }
-
 .menu-filter li {
     display: inline-block;
     /* align-items:  center; */
     /* outline: 1px solid red; */
-
 }
 
 .menu-filter li+li {
@@ -373,9 +342,6 @@ margin-left: 30px;
     padding: 6px 22px 6px;
     color: var(--main-text-color);
     background: var(--btn-bg-color);
-    /* color: #212121;
-    font-size: 16px;
-    font-style: normal; */
 }
 
 .btn.filter:hover,
@@ -384,8 +350,8 @@ margin-left: 30px;
     background-color: var(--blue-color);
     box-shadow: 0px 4px 4px 0px var(--btn-shadow);
 }
-/* project-list */
 
+/* project-list */
 
 .pjcts img {
     display: block;
@@ -402,9 +368,7 @@ margin-left: 30px;
         background: #FFF;
         margin-bottom: 30px;
         margin-left: 30px;
-        /* box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12); */
         /* outline: 1px solid red; */
-        /* flex-basis: (100% / 3); */
 }
 .project:hover, .project:focus { box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12); 
 }
@@ -415,9 +379,6 @@ margin-left: 30px;
     padding: 20px 24px;
 }
 .pjct-name { 
-    /* margin-top: 20px; */
-        /* margin-left: 24px;
-        margin-right: 24px; */
     margin-bottom: 4px;
     font-size: 18px;
     font-weight: 700;
@@ -427,19 +388,14 @@ margin-left: 30px;
         /* outline: 1px solid red; */
 }
 .project .type {
-    /* margin-bottom: 20px; */
-    /* margin-top: 4px; */
-        /* margin-left: 24px;
-        margin-right: 24px; */
     font-size: 16px;
     font-weight: 400;
     line-height: 1.875;
     letter-spacing: 0.48px;
     color: var(--gray-color);
     /* outline: 1px solid red; */
-    /* font-family: Roboto;
-    font-style: normal; */
 }
+
 /* clients */
 .clients h2 {
     color: #212121;
@@ -447,14 +403,9 @@ margin-left: 30px;
     font-size: 36px;
     letter-spacing: 1.08px;
     margin-bottom: 50px;
-    /* font-family: Roboto; */
-    /* font-style: normal; */
-    /* font-weight: 700; */
-    /* line-height: normal; */
 }
 .clients ul{
 display: inline-flex;
-
 }
 .client {
     width: 170px;
@@ -481,15 +432,11 @@ display: inline-flex;
 footer { 
         padding-top: 60px;
         padding-bottom: 60px;
+    background-color: var(--footer-bg-color);
     /* width: 1600px;
     height: 252px; */
-    background-color: var(--footer-bg-color);
     /* flex-shrink: 0; */ 
 }
-/* footer .logo {
-    display: inline-block
-margin-bottom: 20px;
-} */
 /* footer a {   
     outline: 1px solid red;
 } */
@@ -502,9 +449,9 @@ margin-bottom: 20px;
 address {
         margin-top: 20px;
 }
-.ftr-adr  li {      
-     /* outline: 1px solid red; */
-}
+/* .ftr-adr  li {      
+     outline: 1px solid red;
+} */
 .ftr-adr li + li {
     margin-top: 9px;
 }
@@ -519,12 +466,8 @@ address {
     line-height:  1.71429; 
     letter-spacing: 0.42px;
     color: var(--footer-text);
-/* font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 400; */
 }
-.footer-cont:focus, .footer-cont:hover, .addr-gmap:focus, .addr-gmap:hover{
+.footer-cont:focus, .footer-cont:hover, .addr-gmap:focus, .addr-gmap:hover {
     color: var(--blue-color);
     /* background-color: var(--white-color); */
 }
@@ -542,10 +485,6 @@ letter-spacing: 0.42px;
 text-transform: uppercase;
     color: var(--white-color);
 margin-bottom: 20px;
-/* font-family: Roboto; */
-/* font-style: normal; */
-/* font-weight: 700; */
-/* line-height: normal; */
 }
 .social-footer {
     display: inline-flex;
@@ -567,9 +506,6 @@ margin-bottom: 20px;
 .social-footer .social-icon {
     width: 20px;
     height: 20px;
-    /* align-items: baseline; */
-    /* margin: 0; */
-    /* flex-shrink: 0; */
 }
 .social-footer .social-btn:hover,
 .social-footer .social-btn:focus {
