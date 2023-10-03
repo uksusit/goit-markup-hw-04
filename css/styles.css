@@ -384,17 +384,24 @@ margin-left: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: -30px;
-    margin-bottom: -30px;
+    gap: 30px;
+    /* margin-left: -30px;
+    margin-bottom: -30px; */
     /* outline: 1px solid red; */
 }
 .projects li {
         background: #FFF;
-        margin-bottom: 30px;
-        margin-left: 30px;
+        /* margin-bottom: 30px;
+        margin-left: 30px; */
         /* outline: 1px solid red; */
 }
-.project:hover, .project:focus { box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12); 
+.project {
+    display: block;
+
+}
+.project:hover , .project:focus  { 
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12); 
+    /* background-color: #2196F3; */
 }
 .brdr {
     border-bottom: 1px solid #EEE;
