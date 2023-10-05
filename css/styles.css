@@ -438,18 +438,17 @@ margin-left: 30px;
 /* .clients ul{
 display: flex;
 } */
-.client {
-     color: var(--social-color);
-    border-radius: 4px;
-    border: 1px solid var(--social-color);   
-}
+
 .client  {
     display: flex;
     width: 170px;
     height: 92px;
     justify-content: center;
     align-items: center;
-    color: inherit;
+    /* color: inherit; */
+     color: var(--social-color);
+    border-radius: 4px;
+    border: 1px solid var(--social-color);
 }
 .icon-cli {
     width: 106px;
@@ -515,10 +514,21 @@ footer .container {
     /* padding: 12px 0; */
 }
 .givup p {
+    color: #FFF;
+font-family: Roboto;
 font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 letter-spacing: 0.42px;
 text-transform: uppercase;
-    color: var(--white-color);
+/* font-size: 14px;
+text-transform: uppercase;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+color: var(--white-color); */
 margin-bottom: 20px;
 }
 
