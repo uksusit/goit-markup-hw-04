@@ -428,6 +428,9 @@ margin-left: 30px;
 }
 
 /* clients */
+.clients .w-margin {
+    justify-content: space-between;
+}
 .clients h2 {
     color: #212121;
     text-align: center;
